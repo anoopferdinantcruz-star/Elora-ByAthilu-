@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Elora By Athilu — Anti‑tarnish • Traditional • Lightweight • Fancy</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Tailwind CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <style>
+    :root {
+      --accent: #D4AF37; /* Gold */
+      --ivory: #FAF9F6;
+    }
+    html, body { background: var(--ivory); }
+    .font-playfair { font-family: 'Playfair Display', serif; }
+    .font-poppins { font-family: 'Poppins', system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; }
+    .btn-gold {
+      background-color: var(--accent);
+      color: white;
+      border-radius: 9999px;
+      padding: 0.6rem 1.25rem;
+      font-weight: 500;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: .5rem;
+    }
+    .btn-outline-gold {
+      border: 1px solid var(--accent);
+      color: var(--accent);
+      border-radius: 9999px;
+      padding: 0.6rem 1.25rem;
+      font-weight: 500;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: .5rem;
+      background: transparent;
+    }
+    .card {
+      background: #fff;
+      border: 1px solid rgba(0,0,0,.1);
+      border-radius: 1rem;
+      overflow: hidden;
+    }
+    .sticky-safe {
+      position: sticky;
+      top: 0;
+      z-index: 30;
+      backdrop-filter: saturate(180%) blur(8px);
+    }
+  </style>
+</head>
+<body class="font-poppins text-neutral-900">
+  <!-- Top Bar -->
+  <header class="w-full border-b border-neutral-200/70 bg-white/70 sticky-safe">
+    <div class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
+      <div class="font-playfair text-2xl tracking-wide" style="color: var(--accent)">
+        Elora By Athilu
+      </div>
+      <nav class="hidden md:flex items-center gap-6 text-sm">
+        <a href="#shop" class="hover:opacity-80">Shop</a>
+        <a href="#about" class="hover:opacity-80">About</a>
+        <a href="#reviews" class="hover:opacity-80">Reviews</a>
+        <a href="#contact" class="hover:opacity-80">Contact</a>
+      </nav>
+      <a href="https://wa.me/918281558598?text=Hi%20Elora%2C%20I%20would%20like%20to%20order." target="_blank" rel="noopener noreferrer" class="btn-gold">
+        Order on WhatsApp
+      </a>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="relative">
+    <div class="max-w-6xl mx-auto px-4 py-16 grid md:grid-cols-2 gap-10 items-center">
+      <div>
+        <h1 class="font-playfair text-4xl md:text-5xl leading-tight">
+          Timeless Jewelry —
+          <span style="color: var(--accent)"> Anti‑tarnish, Lightweight</span>
+        </h1>
+        <p class="mt-4 text-neutral-600 max-w-xl">
+          Jewelry crafted for you ✨ by @aura_by_athilu. Traditional elegance with modern comfort — pieces made to wear and love, every day.
+        </p>
+        <div class="mt-8 flex gap-3">
+          <a href="#shop" class="btn-gold">Browse Collections</a>
+          <a href="https://wa.me/918281558598?text=Hi%20Elora%2C%20I%20want%20to%20order%20from%20your%20website." target="_blank" rel="noopener noreferrer" class="btn-outline-gold">WhatsApp Us</a>
+        </div>
+        <div class="mt-6 text-sm text-neutral-500">Anti-tarnish | Traditional | Lightweight | Fancy</div>
+      </div>
+      <div class="aspect-[4/3] rounded-3xl bg-white shadow-sm border border-neutral-200 flex items-center justify-center">
+        <div class="h-40 w-40 rounded-full opacity-25" style="background: conic-gradient(from 0deg, var(--accent), #f6e7b2, var(--accent))"></div>
+        <!-- Replace with hero product image -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Badges -->
+  <section class="py-6">
+    <div class="max-w-6xl mx-auto px-4 grid grid-cols-2 md:grid-cols-4 gap-3 text-sm">
+      <div class="bg-white border border-neutral-200 rounded-xl py-3 px-4 text-center">Anti‑tarnish finish</div>
+      <div class="bg-white border border-neutral-200 rounded-xl py-3 px-4 text-center">Lightweight comfort</div>
+      <div class="bg-white border border-neutral-200 rounded-xl py-3 px-4 text-center">Traditional & fancy</div>
+      <div class="bg-white border border-neutral-200 rounded-xl py-3 px-4 text-center">Hand‑packed with care</div>
+    </div>
+  </section>
+
+  <!-- Shop -->
+  <section id="shop" class="py-14">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="font-playfair text-3xl mb-8">Featured Pieces</h2>
+      <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-6">
+        <!-- Product Card 1 -->
+        <div class="card">
+          <div class="aspect-square bg-neutral-100"></div>
+          <div class="p-4">
+            <div class="font-medium">Gold-Plated Necklace</div>
+            <div class="text-sm text-neutral-500">Anti-tarnish | Lightweight</div>
+            <a class="btn-gold w-full mt-4"
+               href="https://wa.me/918281558598?text=Hi%20Elora%2C%20I'm%20interested%20in%20the%20Gold-Plated%20Necklace.%20Please%20share%20price%20%26%20availability."
+               target="_blank" rel="noopener noreferrer">Order on WhatsApp</a>
+          </div>
+        </div>
+        <!-- Product Card 2 -->
+        <div class="card">
+          <div class="aspect-square bg-neutral-100"></div>
+          <div class="p-4">
+            <div class="font-medium">Kemp Stone Earrings</div>
+            <div class="text-sm text-neutral-500">Traditional | Everyday</div>
+            <a class="btn-gold w-full mt-4"
+               href="https://wa.me/918281558598?text=Hi%20Elora%2C%20I'm%20interested%20in%20the%20Kemp%20Stone%20Earrings.%20Please%20share%20price%20%26%20availability."
+               target="_blank" rel="noopener noreferrer">Order on WhatsApp</a>
+          </div>
+        </div>
+        <!-- Product Card 3 -->
+        <div class="card">
+          <div class="aspect-square bg-neutral-100"></div>
+          <div class="p-4">
+            <div class="font-medium">Temple Pendant Set</div>
+            <div class="text-sm text-neutral-500">Festive | Anti-tarnish</div>
+            <a class="btn-gold w-full mt-4"
+               href="https://wa.me/918281558598?text=Hi%20Elora%2C%20I'm%20interested%20in%20the%20Temple%20Pendant%20Set.%20Please%20share%20price%20%26%20availability."
+               target="_blank" rel="noopener noreferrer">Order on WhatsApp</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Reviews -->
+  <section id="reviews" class="py-14 bg-white/60 border-t border-b border-neutral-200/70">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="font-playfair text-3xl mb-6">Customer Love</h2>
+      <div class="grid md:grid-cols-3 gap-4 text-sm">
+        <div class="bg-white border border-neutral-200 rounded-xl p-4 text-neutral-700">“Beautiful finish and no tarnish after weeks!”</div>
+        <div class="bg-white border border-neutral-200 rounded-xl p-4 text-neutral-700">“Lightweight yet looks premium. Perfect for daily wear.”</div>
+        <div class="bg-white border border-neutral-200 rounded-xl p-4 text-neutral-700">“Great packing and quick WhatsApp ordering.”</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="py-14">
+    <div class="max-w-6xl mx-auto px-4 grid md:grid-cols-2 gap-8 items-center">
+      <div>
+        <h2 class="font-playfair text-3xl mb-3">About Elora</h2>
+        <p class="text-neutral-700">
+          Elora By Athilu brings together craftsmanship and comfort — jewelry that feels light, looks rich, and stays bright. Each order is carefully packed and sent with love.
+        </p>
+      </div>
+      <div class="aspect-video rounded-2xl bg-white border border-neutral-200"></div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="py-14">
+    <div class="max-w-6xl mx-auto px-4 text-center">
+      <h2 class="font-playfair text-3xl">Contact & Ordering</h2>
+      <p class="mt-2 text-neutral-600">DM on Instagram or message us on WhatsApp to order.</p>
+      <div class="mt-6 flex justify-center gap-4">
+        <a href="https://wa.me/918281558598?text=Hi%20Elora%2C%20I%20would%20like%20to%20place%20an%20order." target="_blank" rel="noopener noreferrer" class="btn-gold">
+          <!-- Simple WhatsApp icon replacement using unicode bubble --> 💬 WhatsApp
+        </a>
+        <a href="https://instagram.com/elora_by_athilu" target="_blank" rel="noopener noreferrer" class="btn-outline-gold">
+          <!-- Instagram text label --> Instagram
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="py-8 text-center text-sm text-neutral-500 border-t border-neutral-200/70">
+    © 2025 Elora By Athilu — Anti‑tarnish | Traditional | Lightweight | Fancy
+  </footer>
+</body>
+</html>
